@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Formulaire CROUS</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="form.css">
+  <script src="mor.js"></script>
+</head>
+
+<body>
+  <h1>CROUS</h1>
+  <div class="container">
+    <h2>Formulaire</h2>
+    <form action="" name="formulaire">
+
+      <label for="civilite">Civilité</label>
+      <select name="civilite" id="civilite">
+        <option value=""> </option>
+        <option value="1"> M. </option>
+        <option value="2"> Mme </option>
+      </select>
+
+      <label for="firstname">Nom</label>
+      <input type="text" name="firstname" id="firstname" placeholder="Votre nom">
+
+      <label for="lastname">Prénom</label>
+      <input type="text" name="lastname" id="lastname" placeholder="Votre prénom">
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Votre email">
+
+      <label for="date">Date de naissance</label>
+      <input type="date" name="date" id="date" placeholder="Votre date de naissance">
+
+      <label for="numsoc">Numéro Sécurité Social</label>
+      <input type="number" name="numsoc" id="numsoc" placeholder="Votre numéro de sécurité social">
+
+      <label for="tel">Numéro de téléphone</label>
+      <input type="number" name="tel" id="tel" placeholder="Votre numéro de téléphone">
+
+      <label for="adr">Adresse</label>
+      <input type="text" name="adr" id="adr" placeholder="Votre adresse">
+
+      <label for="depart">Département</label>
+      <input type="number" name="depart" id="depart" placeholder="Votre département">
+
+      <label for="iban">iban</label>
+      <input type="text" name="iban" id="iban" placeholder="Votre IBAN">
+
+      <button type="submit">Valider</button>
+    </form>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+  <script src="form.js"></script>
+</body>
+
+</html>
